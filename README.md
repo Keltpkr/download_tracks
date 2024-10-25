@@ -23,7 +23,6 @@ Clonez le dépôt :
 ---
 
 ```bash
-Copier le code
 git clone https://github.com/Keltpkr/download_tracks)
 cd [votre-repo]
 ```
@@ -32,7 +31,6 @@ Installez les dépendances :
 Exécutez la commande suivante dans votre terminal pour installer les bibliothèques requises :
 
 ```bash
-Copier le code
 pip install -r requirements.txt
 ```
 Exporter les cookies de session depuis votre navigateur :
@@ -51,7 +49,6 @@ Lancer le script :
 Dans votre terminal, exécutez :
 
 ```bash
-Copier le code
 python download_tracks.py
 ```
 Interface Utilisateur :
@@ -77,8 +74,3 @@ Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informa
 Note : Utilisez ce script uniquement pour des téléchargements personnels et légaux en conformité avec les droits d'auteur du site source.
 
 ---
-
-
-
-
-
