@@ -78,8 +78,6 @@ Note : Utilisez ce script uniquement pour des téléchargements personnels et l�
 
 ---
 
-En copiant ce texte, le fichier devrait s'afficher correctement sur GitHub sans interpréter les balises ou les blocs de code.
-
 
 
 
