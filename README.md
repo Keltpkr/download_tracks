@@ -53,6 +53,7 @@ Interface Utilisateur :
 URL de l'album : Collez l'URL de l'album que vous souhaitez télécharger.
 Dossier de téléchargement : Le dossier sera automatiquement nommé selon l'album (remplaçant les caractères non acceptés) et situé dans le répertoire "Music". Vous pouvez sélectionner un autre dossier si besoin.
 Téléchargement : Cliquez sur Démarrer pour initier le téléchargement. Le bouton vous permet également de suspendre et de reprendre le téléchargement.
+
 Suivi de Progression :
 
 Une barre de progression est disponible pour l'album entier et pour chaque morceau, afin de suivre en direct l'avancée du téléchargement.
