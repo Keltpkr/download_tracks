@@ -10,6 +10,7 @@ from pathlib import Path
 from tkinter import ttk
 import urllib3
 
+#test
 # Désactiver les avertissements SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
