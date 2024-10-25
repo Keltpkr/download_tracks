@@ -16,7 +16,7 @@ Ce projet permet de télécharger automatiquement les morceaux d'un album depuis
 
 ```bash
 pip install requests beautifulsoup4 tkinter
-
+```
 ## 🔧 Installation et Configuration
 Clonez le dépôt :
 
@@ -26,6 +26,7 @@ Clonez le dépôt :
 Copier le code
 git clone https://github.com/username/votre-repo.git
 cd votre-repo
+```
 Installez les dépendances :
 
 Exécutez la commande suivante dans votre terminal pour installer les bibliothèques requises :
@@ -33,6 +34,7 @@ Exécutez la commande suivante dans votre terminal pour installer les bibliothè
 ```bash
 Copier le code
 pip install -r requirements.txt
+```
 Exporter les cookies de session depuis votre navigateur :
 
 ---
@@ -51,6 +53,7 @@ Dans votre terminal, exécutez :
 ```bash
 Copier le code
 python download_tracks.py
+```
 Interface Utilisateur :
 
 URL de l'album : Collez l'URL de l'album que vous souhaitez télécharger.
@@ -74,9 +77,6 @@ Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informa
 Note : Utilisez ce script uniquement pour des téléchargements personnels et légaux en conformité avec les droits d'auteur du site source.
 
 ---
-
-```vbnet
-Copier le code
 
 En copiant ce texte, le fichier devrait s'afficher correctement sur GitHub sans interpréter les balises ou les blocs de code.
 
