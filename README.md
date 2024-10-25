@@ -13,7 +13,7 @@ Ce projet permet de télécharger automatiquement les morceaux d'un album depuis
 ---
 
 ### Librairies Python requises
-```
+
 ## 🔧 Installation et Configuration
 Clonez le dépôt :
 
