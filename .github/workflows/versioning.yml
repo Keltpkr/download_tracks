@@ -12,7 +12,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Read and increment version
         id: increment
         run: |
@@ -29,6 +31,17 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b version-updates
           git add version.txt
           git commit -m "Increment version to ${{ env.new_version }}"
-          git push origin main
+          git push -u origin version-updates
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Increment version to ${{ env.new_version }}"
+          base: main
+          head: version-updates
+          title: "Increment version to ${{ env.new_version }}"
+          body: "This PR updates the version number to ${{ env.new_version }}."
