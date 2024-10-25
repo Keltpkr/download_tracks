@@ -72,10 +72,10 @@ def start_download(album_url, download_folder):
     # Log du chemin du dossier
     print(f"Dossier de téléchargement : {folder_name}")
 
-    # Extraire uniquement les liens vers chaque morceau sans doublons
+    # Extraire uniquement les liens vers chaque morceau se terminant par .mp3 sans doublons
     tracks = []
     for link in soup.find_all('a', href=True):
-        if '/game-soundtracks/album/' in link['href'] and 'change_log' not in link['href']:
+        if '/game-soundtracks/album/' in link['href'] and link['href'].endswith('.mp3') and 'change_log' not in link['href']:
             track_url = f"https://downloads.khinsider.com{link['href']}"
             if track_url not in tracks:  # Ajoute le lien si non déjà présent
                 tracks.append(track_url)
