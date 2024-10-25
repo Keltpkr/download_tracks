@@ -24,8 +24,8 @@ Clonez le dépôt :
 
 ```bash
 Copier le code
-git clone https://github.com/username/votre-repo.git
-cd votre-repo
+git clone https://github.com/Keltpkr/download_tracks)
+cd [votre-repo]
 ```
 Installez les dépendances :
 
