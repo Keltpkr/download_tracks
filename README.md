@@ -13,9 +13,6 @@ Ce projet permet de télécharger automatiquement les morceaux d'un album depuis
 ---
 
 ### Librairies Python requises
-
-```bash
-pip install requests beautifulsoup4 tkinter
 ```
 ## 🔧 Installation et Configuration
 Clonez le dépôt :
