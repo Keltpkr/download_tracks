@@ -1,4 +1,4 @@
-# 🎵 Script de Téléchargement de Bandes Sonores 🎶
+# 🎵 Script de Téléchargement de Bandes Sonores sur https://downloads.khinsider.com/🎶
 
 Ce projet permet de télécharger automatiquement les morceaux d'un album depuis une URL fournie. Le script utilise les cookies de session pour accéder aux fichiers protégés, ce qui nécessite l'exportation des cookies depuis votre navigateur. Il inclut une interface graphique simple pour coller l'URL de l'album, choisir le dossier de téléchargement, et suivre la progression du téléchargement.
 
